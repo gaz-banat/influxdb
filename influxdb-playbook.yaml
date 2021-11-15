@@ -1,0 +1,7 @@
+---
+- name: Install influxdb
+  hosts: all
+  tasks:
+    - include_role:
+        name: influxdb_gaz
+
